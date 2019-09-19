@@ -110,10 +110,10 @@ namespace LettersExercise
 
 
 
-            IEnumerable<char> FullnameN = nombre.Concat(" ");
-            nombre = FullnameN.ToList();
-            FullnameN = nombre.Concat(surname);
-            List<char> Fullname = FullnameN.ToList();
+             
+            
+            
+            List<char> Fullname =nombre.Concat(" ").Concat(surname).ToList();
 
             foreach (char i in Fullname)
             {
